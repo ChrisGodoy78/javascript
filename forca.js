@@ -1,4 +1,5 @@
 /* 
+
 FORCA JAVASCRIPT - RODAR NO BROWSER
 
 Algoritmo simples em JavaScript ES6
@@ -26,7 +27,7 @@ let erros = 0           // controla a possibilidade de existencia de uma letra n
 let totalErros = 0      //controla o total de erros ao final de todas as tentativas
 
 //armazenar um conjunto de palavras  em um array
-const palavras = ['toalha', 'armario', 'cama', 'bicicleta', 'banheiro', 'carro', 'escola', 'borrifador', 'cabelo']
+const palavras = ['gato','toalha', 'armario', 'cama', 'bicicleta', 'banheiro', 'carro', 'escola', 'borrifador', 'cabelo']
 
 //sortear uma palavra do array
 let sorteio = palavras[Math.ceil(Math.random()*10)]
